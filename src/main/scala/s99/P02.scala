@@ -7,5 +7,4 @@ object P02 {
     case _ :: xs       => penultimate(xs)
     case _             => sys.error("the list is empty!")
   }
-
 }
