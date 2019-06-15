@@ -7,5 +7,4 @@ object P03 {
     case _ :: xs if n >= 1 => nth(n - 1, xs)
     case _                 => sys.error("error")
   }
-
 }
