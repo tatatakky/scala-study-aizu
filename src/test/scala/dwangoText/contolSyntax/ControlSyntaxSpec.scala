@@ -10,7 +10,4 @@ class ControlSyntaxSpec extends WordSpec {
       assert(isToddler(5, false) == "幼児です")
     }
   }
-
-
-
 }
